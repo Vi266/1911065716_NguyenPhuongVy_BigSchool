@@ -12,12 +12,14 @@ namespace _1911065716_NguyenPhuongVy_BigSchool.ViewModels
         [Required]
         public string Place { get; set; }
         [Required]
-        
+        [FutureDate]
         public string Date { get; set; }
         [Required]
         public byte Category { get; set; }
-        public string Time { get; set; }
         [Required]
+        [ValidTime]
+        public string Time { get; set; }
+        
         public IEnumerable<Category> Categories { get; set; }
         public DateTime GetDateTime()
         {
