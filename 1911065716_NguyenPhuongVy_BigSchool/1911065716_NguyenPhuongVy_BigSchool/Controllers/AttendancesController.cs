@@ -34,4 +34,4 @@ namespace _1911065716_NguyenPhuongVy_BigSchool.Controllers
             return Ok();
         }
     }
-    }
+}

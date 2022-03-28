@@ -6,7 +6,7 @@ using System.Linq;
 using System.Web;
 
 namespace _1911065716_NguyenPhuongVy_BigSchool.Models
-{
+{//aa
     public class Attendance
     {
         public Course Course { get; set; }
